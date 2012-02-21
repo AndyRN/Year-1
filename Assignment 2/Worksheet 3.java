@@ -59,78 +59,63 @@ while(m != 0) {
 
 /// Q3.
 
-x = 0;
-x = x + 1;
-
-while(x != 0) {
-	// statements
-	x = x - 1;
-} // will only execute once and only if 'x' isn't 0
+n = x;
+while(n != 0) {		<< if
+	// (*statements*)
+	n = 0;
+} // will only execute once
 
 
 /// Q4.
 
-x = 0;
-x = x + 1;
-n = 0;
-n = n + 1;
-
-while(x != 0) {
+n = x;
+while(n != 0) {		<< if
 	// (*statements*)
-	x = x - 1;
-	n = n - 1;		<< stops the other loop from executing
-} // will only execute once and only if 'x' isn't 0
-
-while(n != 0) {
+	n = 0;
+	m = 0;	// stops the other loop from executing
+} // will only execute once
+while(m != 0) {		<< else
 	// (*statements*)
-	n = n - 1;
+	m = 0;
 } // if previous loop didn't execute, this runs once
 
 
 /// Q5.
 
-n = 0;
-m = 0;
-c = 0;
-c = c + 1;
-
-while(c != 0) {
-	m = m + 1;		<< m = x
-	if(m == x) {
-		c = c - 1;
-	} // stops loop
-} // sets the value of 'm' to be the same as 'x'
-x = 0;		<< ready so 'y' can be put into it any amount of times
-
-while(y != 0) {
-	c = c + 1;
-	while(c != 0) {
-		n = n + 1;		<< n = m
-		if(n == m) {
-			c = c - 1;
-		}
-	} // copies value of 'm' into 'n'
-	while(n != 0) {
-		x = x + 1;
-		n = n - 1;
-	} // adds the original value of 'x' to 'x' from 'n'
-	y = y - 1;
-	z = z + 1;
-} // ends when y multiplication is complete
-
-c = c + 1;
-while (c != 0) {
-	y = y + 1;
-	if (y == z) {
-		c = c - 1;
-	}
-} // restores value of 'y' from 'z'
+n = x;	// makes a copy of the original value of 'x'
+x = 0;	// ready so 'y' can be put into it any amount of times
+z = y;	// makes a copy of 'y' to retain original value
+if(y != 0) {
+	while(z != 0) {
+		x = x + n
+		z = z - 1;
+	} // ends when multiplication is complete
+} // if 'y' is 0 then 'x' will remain 0 too
 
 
 /// Q6.
 
+n = y;
+m = n;
+z = 1;
+if(m > x){
+	x = 0;
+} else if(m == x) {
+	x = 1;
+} else {
+	c = 1;
+	while(c != 0) {
+		m = m + n
+		z = z + 1;
+		if(m >= x) {
+			x = z;
+			c = 0;
+		}
+	}
+} // stops once 'm' is greater or equal to 'x'
 
 
+/// Q7.
 
 
 
