@@ -87,7 +87,7 @@ x = 0;	// ready so 'y' can be put into it any amount of times
 z = y;	// makes a copy of 'y' to retain original value
 if(y != 0) {
 	while(z != 0) {
-		x = x + n
+		x = x + n;
 		z = z - 1;
 	} // ends when multiplication is complete
 } // if 'y' is 0 then 'x' will remain 0 too
@@ -105,19 +105,19 @@ if(m > x){
 } else {
 	c = 1;
 	while(c != 0) {
-		m = m + n
-		z = z + 1;
+		m = m + n;
 		if(m >= x) {
 			x = z;
 			c = 0;
 		}
+		z = z + 1;
 	}
 } // stops once 'm' is greater or equal to 'x'
 
 
 /// Q7.
 
-
+5 basic operations
 
 
 
