@@ -95,25 +95,25 @@ if(y != 0) {
 
 /// Q6.
 
-n = y;
-m = n;
-z = 1;
-if(m > x){
-	x = 0;
-} else if(m == x) {
-	x = 1;
+n = y; // makes a copy of 'y' to avoid corruption.
+m = n; // makes a copy of 'n' so 'm' can be used as the counter.
+if(m > x){ 
+	x = 0; // if the denominator is greater than the numerator, answer will always be 0.
+} else if(m == x) { 
+	x = 1; // if they are equal, answer will always be 1.
 } else {
-	c = 1;
-	while(c != 0) {
-		m = m + n;
-		if(m >= x) {
-			x = z;
-			c = 0;
+	z = 1; // amount of times 'y' goes into 'x'.
+	while(x != z) {
+		m = m + n; // this represents 'x' having it's original value added to itself.
+		z = z + 1; // increments number of multiplications 
+		if(m = x) {
+			x = z; // sets 'x' to the answer of the integer division.
+		} else if(m > x) {
+			z = z - 1; // for integer divison.
+			x = z; // sets 'x' to the answer of the integer division.
 		}
-		z = z + 1;
-	}
-} // stops once 'm' is greater or equal to 'x'
-
+	} // stops once 'x' has been set to the amount of multiplications.
+} // end.
 
 /// Q7.
 
