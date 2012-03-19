@@ -114,9 +114,8 @@ if(n > x){
 	} // stops once 'x' has been set to the amount of multiplications.
 } // end.
 
+
 /// Q7.
 
-5 basic operations
-
-
+// 2y + 3
 
