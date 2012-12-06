@@ -1,8 +1,8 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: Picky.java
-Version: 1.0
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: Picky.java
+* Version: 1.0
 ***************************************************************************************/
 
 package assignment1;

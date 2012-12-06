@@ -1,10 +1,10 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: FileTransmit.c 
-Version: 1.4
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: FileTransmit.c 
+* Version: 1.4
 ***************************************************************************************/
-
+ 
 #include <stdio.h> 
 #include <conio.h>
 #define FEND 0x40

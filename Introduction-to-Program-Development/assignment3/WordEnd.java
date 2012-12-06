@@ -1,8 +1,8 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: WordEnd.java
-Version: 1.0
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: WordEnd.java
+* Version: 1.0
 ****************************************************************************************/
 
 package assignment3;

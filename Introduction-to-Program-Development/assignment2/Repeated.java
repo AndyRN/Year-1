@@ -1,8 +1,8 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: Repeated.java
-Version: 1.0
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: Repeated.java
+* Version: 1.0
 ***************************************************************************************/
 
 package assignment2;

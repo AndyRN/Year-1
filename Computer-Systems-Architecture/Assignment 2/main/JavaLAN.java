@@ -38,7 +38,7 @@ public class JavaLAN {
   private static DebugDisplay debugWindow;
  
   /**
-   * @param args - Default. 
+   * @param args - Default
    * Function - Enables each window for the user, sets each port, and enables the main program loop.
    */
   public static void main(String[] args) {

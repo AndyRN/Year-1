@@ -1,8 +1,8 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: Casting.java
-Version: 1.1
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: Casting.java
+* Version: 1.1
 ***************************************************************************************/
 
 package assignment1;

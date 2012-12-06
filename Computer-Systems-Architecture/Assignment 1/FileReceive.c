@@ -1,8 +1,8 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: FileReceive.c 
-Version: 1.7
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: FileReceive.c 
+* Version: 1.7
 ***************************************************************************************/
 
 #include <stdio.h>
@@ -157,7 +157,7 @@ __asm {
 printf("\"");
 printf("\nFile received. Stored in the file 'Received.txt'.");
 getchar();			// Holds the program to see any messages.
-
+ 
 } //main
 
 // References:

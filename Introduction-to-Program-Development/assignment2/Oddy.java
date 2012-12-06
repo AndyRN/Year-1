@@ -1,8 +1,8 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: Oddy.java
-Version: 1.3
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: Oddy.java
+* Version: 1.3
 ***************************************************************************************/
 
 package assignment2;

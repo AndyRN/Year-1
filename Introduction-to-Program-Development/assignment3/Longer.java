@@ -1,8 +1,8 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: Longer.java
-Version: 1.2
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: Longer.java
+* Version: 1.2
 ****************************************************************************************/
 
 package assignment3;

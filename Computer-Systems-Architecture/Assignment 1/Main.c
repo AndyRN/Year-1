@@ -1,10 +1,10 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: Main.c 
-Version: 1.1
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: Main.c 
+* Version: 1.1
 ***************************************************************************************/
-
+ 
 #include "FileTransmit.h"					
 #include "FileReceive.h"
 #include <stdio.h>

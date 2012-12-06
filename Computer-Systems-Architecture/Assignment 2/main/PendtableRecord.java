@@ -5,7 +5,7 @@ public class PendtableRecord {
   public static final int PACKETSIZE = 16;
   public int loggedin, pending, delay;
   public char[] packet = new char[PACKETSIZE];
-  // Declares the variables required.
+  // Declares the variables required
 
   public PendtableRecord() {
     loggedin = 0;

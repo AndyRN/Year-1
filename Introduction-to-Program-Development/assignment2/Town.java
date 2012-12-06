@@ -1,8 +1,8 @@
 /***************************************************************************************
-Author: Andy Nutt
-Student ID: 11004967
-File: Town.java
-Version: 1.0
+* Author: Andy Nutt
+* Student ID: 11004967
+* File: Town.java
+* Version: 1.0
 ***************************************************************************************/
 
 package assignment2;

@@ -20,7 +20,7 @@ public class SerialPortHandler {
   /**
    * @author Matt McCouaig + Andy Nutt
    * @param comStr - String holding the name of the COM port that is to be used.
-   * Function - Finds and lists all ports, and allows use of them.
+   * Function - Finds and lists all ports, and allows use of them
    */
   public SerialPortHandler(String comStr) {
     JavaLAN.terminal.println("\nChecking the availability of ports...");

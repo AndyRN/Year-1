@@ -14,7 +14,7 @@ public class Term extends Frame implements KeyListener, WindowListener, ActionLi
   // Declares a char for the last character typed in, and a boolean to see if a key has been pressed.
 
   /**
-   * Function - Constructor to enable a terminal to be made from the Term class.
+   * Function - Constructor to enable a terminal to be made from the Term class
    */
   public Term() {
     kbhit = false;
